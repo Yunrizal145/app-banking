@@ -14,7 +14,10 @@
 
   <modules>
     <module>user-management-service</module>
+    <module>my-account-management-service</module>
+    <module>my-account-service</module>
     <module>transfer-service</module>
+    <module>login-service</module>
     <module>transaction-history-management-service</module>
     <!-- Tambahkan module lain jika ada -->
   </modules>
