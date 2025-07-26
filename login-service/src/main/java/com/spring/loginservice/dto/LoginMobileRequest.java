@@ -13,4 +13,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class LoginMobileRequest implements Serializable {
     private static final long serialVersionUID = -1184747617408824122L;
+
+    private String username;
+    private String password;
 }
