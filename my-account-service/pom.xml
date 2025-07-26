@@ -36,6 +36,20 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.spring</groupId>
+			<artifactId>user-management-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<classifier>data-model</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>com.spring</groupId>
+			<artifactId>my-account-management-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<classifier>data-model</classifier>
+		</dependency>
+
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
