@@ -6,11 +6,8 @@ import java.util.Random;
 
 public class OtpGenerator {
 
-    @Value("${number.otp.random}")
-    private static String numberOtp;
-
     public static String generateOtp(int length) {
-        String numbers = numberOtp;
+        String numbers = "123456789";
         Random random = new Random();
         StringBuilder otp = new StringBuilder();
 
